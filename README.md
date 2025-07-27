@@ -26,4 +26,4 @@ It features a **liquid glass (frosted glass)** design, a centered footer, and re
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/qr-code-liquid-glass.git](https://github.com/Param2345/Qr-code.git)
+   gh repo clone Param2345/Qr-code
