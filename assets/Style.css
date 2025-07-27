@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* ======= Gloabl Variables =======*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #D6E2F0;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ======= FOOTER =======*/
+#footer{
+    font-size: 12px;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* space between Challenge by and Coded by */
+    text-align: center;
+}
+
+
+
+/* ======= QR CODE CARD =======*/
+
+.card{
+    width: 275px;
+    height: 425px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px dashed rgba(255,255,255,0.3);
+    box-shadow: 0 8px 32px rgba(31,38,135,0.37);
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 12px;
+}
+
+h1{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 90%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #1f1d1d;
+    font-weight: 700;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    width: 90%;
+    color: #485f8a;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ======= Responsive Design ======= */
+
+/* Mobile: 375px */
+@media (max-width: 375px) {
+    .card {
+        width: 90%;
+        height: 50%;
+    }
+
+    img {
+        width: 90%;
+        height: auto;
+        font-size: 5px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    h1, p {
+        width: 95%;
+    }
+}
+
+/* Desktop: 1440px */
+@media (min-width: 1440px) {
+    .card {
+        width: 350px;
+        height: 500px;
+    }
+
+    img {
+        width: 320px;
+        height: 320px;
+    }
+}
